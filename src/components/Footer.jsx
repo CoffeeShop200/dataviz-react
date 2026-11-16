@@ -31,7 +31,7 @@ function Footer() {
                     <span>© {new Date().getFullYear()} Mémoire de Corse</span>
                     <span className="footer-legal">
                         <Link to="/mentions">Mentions Légales</Link>
-                        <Link to="/accessibility">Accessibilité</Link>
+                        <a href="https://data.corsica/accessibility">Accessibilité</a>
                     </span>
                 </div>
             </div>

@@ -6,7 +6,6 @@ import Pills from "./Pills.jsx";
 import Kpis from "./Kpis.jsx";
 import DotsCanvas from "./DotsCanvas.jsx";
 import { ChartCard, YearChart, DonutChart, MonthChart } from "./Charts.jsx";
-import Footer from "./Footer.jsx";
 
 const top = (obj) => Object.entries(obj).sort((a, b) => b[1] - a[1])[0];
 
@@ -42,15 +41,6 @@ export default function HomePage() {
 
   return (
     <>
-      <header className="nav">
-        <div className="container nav-inner">
-          <span className="brand">
-            <span className="brand-dot" />
-            Mémoire de Corse
-          </span>
-          <span className="badge">Données ouvertes</span>
-        </div>
-      </header>
 
       <main className="container">
         <section className="hero">

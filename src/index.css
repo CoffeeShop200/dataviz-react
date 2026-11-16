@@ -1,3 +1,5 @@
+
+
 /* Palette inspirée de data.corsica */
 :root {
   color-scheme: light dark;
@@ -141,6 +143,12 @@ h2 { margin: 0; font-size: 16px; font-weight: 600; letter-spacing: -.01em; }
   color: #bdbdbd;
 }
 .footer-legal { display: flex; gap: 20px; }
+#logo{
+  width: 15%
+}
+#header{  
+  background-color: rgb(34, 75, 82) !important;
+}
 
 
 @media (max-width: 720px) {
